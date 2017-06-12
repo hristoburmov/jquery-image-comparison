@@ -1,0 +1,42 @@
+html, body, p, li, h1, h2, h3 { margin: 0; padding: 0; }
+a { text-decoration: none; }
+pre { overflow: auto; }
+
+html, body {
+	color: #666;
+	font: 16px/24px sans-serif;
+}
+.wrap { margin: 0 auto; width: 1140px; }
+header {
+	background: #ffff88;
+	box-shadow: 0 0 10px #555;
+	padding: 10px 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+#logo { text-align: center; }
+#logo a {
+	color: #222;
+	font: 32px sans-serif;
+	text-shadow: 2px 2px 0 #dddd22;
+}
+
+#content { margin-top: 100px; }
+#content h2 { color: #333; font: bold italic 24px serif; margin: 10px 0; }
+#content h3 { margin: 10px 0; }
+#content p { margin: 10px 0 20px 0; }
+
+
+
+@media screen and (max-width: 1200px) {
+	.wrap { width: 600px; }
+}
+@media screen and (max-width: 768px) {
+	.wrap { width: 400px; }
+}
+@media screen and (max-width: 320px) {
+	.wrap { padding: 0 5%; width: 90%; }
+	#logo a { font-size: 24px; }
+}
