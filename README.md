@@ -5,7 +5,7 @@ Small and simple jQuery plugin for image comparison.
 * Extremely easy to use
 * Lightweight (less than 1KB when minified)
 ## Demo
-http://178.75.255.150/jquery-image-comparison/
+https://burmov.eu/demos/jquery-image-comparison/
 ## Usage
 1. CSS & JS
 ```html
